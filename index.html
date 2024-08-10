@@ -31,16 +31,16 @@ and is wrapped around the whole page content, except for the footer in this exam
   <div class="w3-card-4 w3-margin w3-white">
     <img src="https://www.w3schools.com/w3images/woods.jpg" alt="Nature" style="width:100%">
     <div class="w3-container">
-      <h3><b>TITLE HEADING</b></h3>
+      <h3><b id="title">TITLE HEADING</b></h3>
       <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
     </div>
 
     <div class="w3-container">
-      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+      <p id="content">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
         tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+          <p></p>
         </div>
         <div class="w3-col m4 w3-hide-small">
           <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
@@ -114,6 +114,36 @@ and is wrapped around the whole page content, except for the footer in this exam
   <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
+
+  <script>
+        async function loadXml() {
+            const url = 'https://raw.githubusercontent.com/thanh127001/mydata/main/folder-name/xmldata1.xml';
+
+            try {
+                // Tải tệp XML từ URL
+                const response = await fetch(url);
+                const xmlText = await response.text();
+
+                // Phân tích cú pháp XML
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+
+                // Lấy tiêu đề và nội dung
+                const title = xmlDoc.getElementsByTagName('title')[0].textContent;
+                const content = xmlDoc.getElementsByTagName('content')[0].textContent;
+
+                // Hiển thị nội dung trên trang HTML
+                document.getElementById('title').textContent = title;
+                document.getElementById('content').textContent = content;
+            } catch (error) {
+                console.error('Lỗi khi tải hoặc phân tích XML:', error);
+                document.getElementById('title').textContent = 'Không thể tải dữ liệu.';
+            }
+        }
+
+        // Gọi hàm để tải và hiển thị dữ liệu khi trang được tải
+        window.onload = loadXml;
+    </script>
 
 </body>
 </html>
