@@ -10,7 +10,7 @@
             <category id="2"/> <!-- Innovation -->
         </categories>
     </article>
-    <article id="2" url="https://example.com/article2" created="2024-08-02T11:00:00Z">
+    <article id="2" url="https://example.com/article2" created="2024-08-05T12:00:00Z">
         <title>Tiêu đề bài viết 2</title>
         <description>Mô tả ngắn gọn về bài viết 2.</description>
         <content>Nội dung của bài viết 2.</content>
@@ -20,7 +20,7 @@
             <category id="4"/> <!-- Wellness -->
         </categories>
     </article>
-    <article id="3" url="https://example.com/article3" created="2024-08-03T12:00:00Z">
+    <article id="3" url="https://example.com/article3" created="2024-08-03T09:00:00Z">
         <title>Tiêu đề bài viết 3</title>
         <description>Mô tả ngắn gọn về bài viết 3.</description>
         <content>Nội dung của bài viết 3.</content>
@@ -30,7 +30,7 @@
             <category id="6"/> <!-- Learning -->
         </categories>
     </article>
-    <article id="4" url="https://example.com/article4" created="2024-08-04T13:00:00Z">
+    <article id="4" url="https://example.com/article4" created="2024-08-07T14:00:00Z">
         <title>Tiêu đề bài viết 4</title>
         <description>Mô tả ngắn gọn về bài viết 4.</description>
         <content>Nội dung của bài viết 4.</content>
@@ -40,7 +40,7 @@
             <category id="8"/> <!-- Adventure -->
         </categories>
     </article>
-    <article id="5" url="https://example.com/article5" created="2024-08-05T14:00:00Z">
+    <article id="5" url="https://example.com/article5" created="2024-08-06T11:00:00Z">
         <title>Tiêu đề bài viết 5</title>
         <description>Mô tả ngắn gọn về bài viết 5.</description>
         <content>Nội dung của bài viết 5.</content>
@@ -50,7 +50,7 @@
             <category id="10"/> <!-- Investment -->
         </categories>
     </article>
-    <article id="6" url="https://example.com/article6" created="2024-08-06T15:00:00Z">
+    <article id="6" url="https://example.com/article6" created="2024-08-09T15:00:00Z">
         <title>Tiêu đề bài viết 6</title>
         <description>Mô tả ngắn gọn về bài viết 6.</description>
         <content>Nội dung của bài viết 6.</content>
@@ -60,7 +60,7 @@
             <category id="12"/> <!-- Recipes -->
         </categories>
     </article>
-    <article id="7" url="https://example.com/article7" created="2024-08-07T16:00:00Z">
+    <article id="7" url="https://example.com/article7" created="2024-08-04T13:00:00Z">
         <title>Tiêu đề bài viết 7</title>
         <description>Mô tả ngắn gọn về bài viết 7.</description>
         <content>Nội dung của bài viết 7.</content>
@@ -70,7 +70,7 @@
             <category id="14"/> <!-- Fitness -->
         </categories>
     </article>
-    <article id="8" url="https://example.com/article8" created="2024-08-08T17:00:00Z">
+    <article id="8" url="https://example.com/article8" created="2024-08-10T16:00:00Z">
         <title>Tiêu đề bài viết 8</title>
         <description>Mô tả ngắn gọn về bài viết 8.</description>
         <content>Nội dung của bài viết 8.</content>
@@ -80,7 +80,7 @@
             <category id="16"/> <!-- Movies -->
         </categories>
     </article>
-    <article id="9" url="https://example.com/article9" created="2024-08-09T18:00:00Z">
+    <article id="9" url="https://example.com/article9" created="2024-08-08T17:00:00Z">
         <title>Tiêu đề bài viết 9</title>
         <description>Mô tả ngắn gọn về bài viết 9.</description>
         <content>Nội dung của bài viết 9.</content>
@@ -90,7 +90,7 @@
             <category id="18"/> <!-- Home -->
         </categories>
     </article>
-    <article id="10" url="https://example.com/article10" created="2024-08-10T19:00:00Z">
+    <article id="10" url="https://example.com/article10" created="2024-08-02T18:00:00Z">
         <title>Tiêu đề bài viết 10</title>
         <description>Mô tả ngắn gọn về bài viết 10.</description>
         <content>Nội dung của bài viết 10.</content>
