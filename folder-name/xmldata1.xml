@@ -1,103 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <articles>
-    <article id="1" url="https://example.com/article1" created="2024-08-01T10:00:00Z">
-        <title>Tiêu đề bài viết 1</title>
-        <description>Mô tả ngắn gọn về bài viết 1.</description>
-        <content>Nội dung của bài viết 1.</content>
-        <thumbnail>https://example.com/images/thumbnail1.jpg</thumbnail>
+    <article id="1" url="http://example.com/article1" created="2024-08-01T10:00:00Z">
+        <title>Bài viết 1</title>
+        <description>Mô tả bài viết 1</description>
+        <content>Nội dung bài viết 1</content>
+        <thumbnail>http://example.com/image1.jpg</thumbnail>
         <categories>
-            <category id="1"/> <!-- Technology -->
-            <category id="2"/> <!-- Innovation -->
+            <category>Technology</category>
+            <category>Innovation</category>
         </categories>
     </article>
-    <article id="2" url="https://example.com/article2" created="2024-08-05T12:00:00Z">
-        <title>Tiêu đề bài viết 2</title>
-        <description>Mô tả ngắn gọn về bài viết 2.</description>
-        <content>Nội dung của bài viết 2.</content>
-        <thumbnail>https://example.com/images/thumbnail2.jpg</thumbnail>
+    <article id="2" url="http://example.com/article2" created="2024-08-02T11:00:00Z">
+        <title>Bài viết 2</title>
+        <description>Mô tả bài viết 2</description>
+        <content>Nội dung bài viết 2</content>
+        <thumbnail>http://example.com/image2.jpg</thumbnail>
         <categories>
-            <category id="3"/> <!-- Health -->
-            <category id="4"/> <!-- Wellness -->
+            <category>Science</category>
         </categories>
     </article>
-    <article id="3" url="https://example.com/article3" created="2024-08-03T09:00:00Z">
-        <title>Tiêu đề bài viết 3</title>
-        <description>Mô tả ngắn gọn về bài viết 3.</description>
-        <content>Nội dung của bài viết 3.</content>
-        <thumbnail>https://example.com/images/thumbnail3.jpg</thumbnail>
+    <article id="3" url="http://example.com/article3" created="2024-08-03T12:00:00Z">
+        <title>Bài viết 3</title>
+        <description>Mô tả bài viết 3</description>
+        <content>Nội dung bài viết 3</content>
+        <thumbnail>http://example.com/image3.jpg</thumbnail>
         <categories>
-            <category id="5"/> <!-- Education -->
-            <category id="6"/> <!-- Learning -->
+            <category>Health</category>
+            <category>Wellness</category>
         </categories>
     </article>
-    <article id="4" url="https://example.com/article4" created="2024-08-07T14:00:00Z">
-        <title>Tiêu đề bài viết 4</title>
-        <description>Mô tả ngắn gọn về bài viết 4.</description>
-        <content>Nội dung của bài viết 4.</content>
-        <thumbnail>https://example.com/images/thumbnail4.jpg</thumbnail>
+    <article id="4" url="http://example.com/article4" created="2024-08-04T13:00:00Z">
+        <title>Bài viết 4</title>
+        <description>Mô tả bài viết 4</description>
+        <content>Nội dung bài viết 4</content>
+        <thumbnail>http://example.com/image4.jpg</thumbnail>
         <categories>
-            <category id="7"/> <!-- Travel -->
-            <category id="8"/> <!-- Adventure -->
+            <category>Education</category>
         </categories>
     </article>
-    <article id="5" url="https://example.com/article5" created="2024-08-06T11:00:00Z">
-        <title>Tiêu đề bài viết 5</title>
-        <description>Mô tả ngắn gọn về bài viết 5.</description>
-        <content>Nội dung của bài viết 5.</content>
-        <thumbnail>https://example.com/images/thumbnail5.jpg</thumbnail>
+    <article id="5" url="http://example.com/article5" created="2024-08-05T14:00:00Z">
+        <title>Bài viết 5</title>
+        <description>Mô tả bài viết 5</description>
+        <content>Nội dung bài viết 5</content>
+        <thumbnail>http://example.com/image5.jpg</thumbnail>
         <categories>
-            <category id="9"/> <!-- Finance -->
-            <category id="10"/> <!-- Investment -->
+            <category>Business</category>
+            <category>Finance</category>
         </categories>
     </article>
-    <article id="6" url="https://example.com/article6" created="2024-08-09T15:00:00Z">
-        <title>Tiêu đề bài viết 6</title>
-        <description>Mô tả ngắn gọn về bài viết 6.</description>
-        <content>Nội dung của bài viết 6.</content>
-        <thumbnail>https://example.com/images/thumbnail6.jpg</thumbnail>
+    <article id="6" url="http://example.com/article6" created="2024-08-06T15:00:00Z">
+        <title>Bài viết 6</title>
+        <description>Mô tả bài viết 6</description>
+        <content>Nội dung bài viết 6</content>
+        <thumbnail>http://example.com/image6.jpg</thumbnail>
         <categories>
-            <category id="11"/> <!-- Food -->
-            <category id="12"/> <!-- Recipes -->
+            <category>Travel</category>
+            <category>Adventure</category>
         </categories>
     </article>
-    <article id="7" url="https://example.com/article7" created="2024-08-04T13:00:00Z">
-        <title>Tiêu đề bài viết 7</title>
-        <description>Mô tả ngắn gọn về bài viết 7.</description>
-        <content>Nội dung của bài viết 7.</content>
-        <thumbnail>https://example.com/images/thumbnail7.jpg</thumbnail>
+    <article id="7" url="http://example.com/article7" created="2024-08-07T16:00:00Z">
+        <title>Bài viết 7</title>
+        <description>Mô tả bài viết 7</description>
+        <content>Nội dung bài viết 7</content>
+        <thumbnail>http://example.com/image7.jpg</thumbnail>
         <categories>
-            <category id="13"/> <!-- Sports -->
-            <category id="14"/> <!-- Fitness -->
+            <category>Food</category>
+            <category>Cooking</category>
         </categories>
     </article>
-    <article id="8" url="https://example.com/article8" created="2024-08-10T16:00:00Z">
-        <title>Tiêu đề bài viết 8</title>
-        <description>Mô tả ngắn gọn về bài viết 8.</description>
-        <content>Nội dung của bài viết 8.</content>
-        <thumbnail>https://example.com/images/thumbnail8.jpg</thumbnail>
+    <article id="8" url="http://example.com/article8" created="2024-08-08T17:00:00Z">
+        <title>Bài viết 8</title>
+        <description>Mô tả bài viết 8</description>
+        <content>Nội dung bài viết 8</content>
+        <thumbnail>http://example.com/image8.jpg</thumbnail>
         <categories>
-            <category id="15"/> <!-- Entertainment -->
-            <category id="16"/> <!-- Movies -->
+            <category>Entertainment</category>
         </categories>
     </article>
-    <article id="9" url="https://example.com/article9" created="2024-08-08T17:00:00Z">
-        <title>Tiêu đề bài viết 9</title>
-        <description>Mô tả ngắn gọn về bài viết 9.</description>
-        <content>Nội dung của bài viết 9.</content>
-        <thumbnail>https://example.com/images/thumbnail9.jpg</thumbnail>
+    <article id="9" url="http://example.com/article9" created="2024-08-09T18:00:00Z">
+        <title>Bài viết 9</title>
+        <description>Mô tả bài viết 9</description>
+        <content>Nội dung bài viết 9</content>
+        <thumbnail>http://example.com/image9.jpg</thumbnail>
         <categories>
-            <category id="17"/> <!-- Lifestyle -->
-            <category id="18"/> <!-- Home -->
+            <category>Sports</category>
         </categories>
     </article>
-    <article id="10" url="https://example.com/article10" created="2024-08-02T18:00:00Z">
-        <title>Tiêu đề bài viết 10</title>
-        <description>Mô tả ngắn gọn về bài viết 10.</description>
-        <content>Nội dung của bài viết 10.</content>
-        <thumbnail>https://example.com/images/thumbnail10.jpg</thumbnail>
+    <article id="10" url="http://example.com/article10" created="2024-08-10T19:00:00Z">
+        <title>Bài viết 10</title>
+        <description>Mô tả bài viết 10</description>
+        <content>Nội dung bài viết 10</content>
+        <thumbnail>http://example.com/image10.jpg</thumbnail>
         <categories>
-            <category id="19"/> <!-- Gadgets -->
-            <category id="20"/> <!-- Fashion -->
+            <category>Technology</category>
+            <category>Gadgets</category>
         </categories>
     </article>
 </articles>
