@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categories>
+    <category id="1" name="Technology"/>
+    <category id="2" name="Innovation"/>
+    <category id="3" name="Health"/>
+    <category id="4" name="Wellness"/>
+    <category id="5" name="Education"/>
+    <category id="6" name="Learning"/>
+    <category id="7" name="Travel"/>
+    <category id="8" name="Adventure"/>
+    <category id="9" name="Finance"/>
+    <category id="10" name="Investment"/>
+    <category id="11" name="Food"/>
+    <category id="12" name="Recipes"/>
+    <category id="13" name="Sports"/>
+    <category id="14" name="Fitness"/>
+    <category id="15" name="Entertainment"/>
+    <category id="16" name="Movies"/>
+    <category id="17" name="Lifestyle"/>
+    <category id="18" name="Home"/>
+    <category id="19" name="Gadgets"/>
+    <category id="20" name="Fashion"/>
+</categories>
